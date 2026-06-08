@@ -14,7 +14,7 @@
     { "id": "git",        "name": "Git",                 "description": "Version control",             "icon": "git",        "type": "winget", "package": "Git.Git" },
     { "id": "nodejs",     "name": "Node.js LTS",         "description": "JavaScript runtime",          "icon": "nodejs",     "type": "winget", "package": "OpenJS.NodeJS.LTS" },
     { "id": "docker",     "name": "Docker Desktop",      "description": "Container platform",          "icon": "docker",     "type": "winget", "package": "Docker.DockerDesktop" },
-    { "id": "notepadpp",  "name": "Notepad++",           "description": "Text editor nâng cao",        "icon": "notepadpp",  "type": "winget", "package": "Notepad++.Notepad++" }
+    { "id": "notepadpp",  "name": "Notepad++",           "description": "Text editor nâng cao",        "icon": "notepadpp",  "type": "winget", "package": "Notepad++.Notepad++" },
     {
     "id": "my-internal-app",
     "name": "App Nội Bộ",

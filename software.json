@@ -15,6 +15,15 @@
     { "id": "nodejs",     "name": "Node.js LTS",         "description": "JavaScript runtime",          "icon": "nodejs",     "type": "winget", "package": "OpenJS.NodeJS.LTS" },
     { "id": "docker",     "name": "Docker Desktop",      "description": "Container platform",          "icon": "docker",     "type": "winget", "package": "Docker.DockerDesktop" },
     { "id": "notepadpp",  "name": "Notepad++",           "description": "Text editor nâng cao",        "icon": "notepadpp",  "type": "winget", "package": "Notepad++.Notepad++" }
+    {
+    "id": "my-internal-app",
+    "name": "App Nội Bộ",
+    "description": "Phần mềm tự làm",
+    "icon": "default",
+    "type": "download",
+    "url": "https://drive.google.com/uc?export=download&id=1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs",
+    "silentArgs": "/S"
+  }
   ],
   "profiles": [
     { "id": "office-pc",     "name": "Máy Văn Phòng", "softwareIds": ["chrome", "office", "unikey", "foxit", "zalo"] },

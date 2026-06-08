@@ -1,0 +1,25 @@
+{
+  "software": [
+    { "id": "chrome",     "name": "Google Chrome",       "description": "Trình duyệt web nhanh",       "icon": "chrome",     "type": "winget", "package": "Google.Chrome" },
+    { "id": "office",     "name": "Microsoft Office",    "description": "Bộ ứng dụng văn phòng",       "icon": "office",     "type": "winget", "package": "Microsoft.Office" },
+    { "id": "unikey",     "name": "UniKey",              "description": "Gõ tiếng Việt",               "icon": "keyboard",   "type": "winget", "package": "UniKey.UniKey" },
+    { "id": "zalo",       "name": "Zalo",                "description": "Nhắn tin, gọi điện",          "icon": "zalo",       "type": "winget", "package": "VNG.Zalo" },
+    { "id": "foxit",      "name": "Foxit PDF Reader",    "description": "Đọc file PDF",                "icon": "foxit",      "type": "winget", "package": "Foxit.FoxitReader" },
+    { "id": "anydesk",    "name": "AnyDesk",             "description": "Remote Desktop",              "icon": "anydesk",    "type": "winget", "package": "AnyDeskSoftwareGmbH.AnyDesk" },
+    { "id": "teamviewer", "name": "TeamViewer",          "description": "Remote Desktop & Support",    "icon": "teamviewer", "type": "winget", "package": "TeamViewer.TeamViewer" },
+    { "id": "vlc",        "name": "VLC Media Player",   "description": "Phát video, nhạc",             "icon": "vlc",        "type": "winget", "package": "VideoLAN.VLC" },
+    { "id": "winrar",     "name": "WinRAR",              "description": "Nén và giải nén file",         "icon": "winrar",     "type": "winget", "package": "RARLab.WinRAR" },
+    { "id": "7zip",       "name": "7-Zip",               "description": "Nén giải nén miễn phí",       "icon": "7zip",       "type": "winget", "package": "7zip.7zip" },
+    { "id": "vscode",     "name": "VS Code",             "description": "Code editor mạnh mẽ",         "icon": "vscode",     "type": "winget", "package": "Microsoft.VisualStudioCode" },
+    { "id": "git",        "name": "Git",                 "description": "Version control",             "icon": "git",        "type": "winget", "package": "Git.Git" },
+    { "id": "nodejs",     "name": "Node.js LTS",         "description": "JavaScript runtime",          "icon": "nodejs",     "type": "winget", "package": "OpenJS.NodeJS.LTS" },
+    { "id": "docker",     "name": "Docker Desktop",      "description": "Container platform",          "icon": "docker",     "type": "winget", "package": "Docker.DockerDesktop" },
+    { "id": "notepadpp",  "name": "Notepad++",           "description": "Text editor nâng cao",        "icon": "notepadpp",  "type": "winget", "package": "Notepad++.Notepad++" }
+  ],
+  "profiles": [
+    { "id": "office-pc",     "name": "Máy Văn Phòng", "softwareIds": ["chrome", "office", "unikey", "foxit", "zalo"] },
+    { "id": "sale-pc",       "name": "Máy Sale",      "softwareIds": ["chrome", "zalo", "anydesk", "office", "unikey"] },
+    { "id": "accounting-pc", "name": "Máy Kế Toán",   "softwareIds": ["chrome", "office", "unikey", "foxit", "winrar"] },
+    { "id": "it-pc",         "name": "Máy IT",        "softwareIds": ["chrome", "vscode", "git", "nodejs", "notepadpp", "docker"] }
+  ]
+}

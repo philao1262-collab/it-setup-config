@@ -29,6 +29,6 @@
     { "id": "office-pc",     "name": "Máy Văn Phòng", "softwareIds": ["chrome", "office", "unikey", "foxit", "zalo"] },
     { "id": "sale-pc",       "name": "Máy Sale",      "softwareIds": ["chrome", "zalo", "anydesk", "office", "unikey"] },
     { "id": "accounting-pc", "name": "Máy Kế Toán",   "softwareIds": ["chrome", "office", "unikey", "foxit", "winrar"] },
-    { "id": "it-pc",         "name": "Máy IT",        "softwareIds": ["chrome", "vscode", "git", "nodejs", "notepadpp", "docker"] }
+    { "id": "it-pc",         "name": "Máy IT",        "softwareIds": ["chrome", "vscode", "git", "nodejs", "notepadpp", "docker","my-internal-app"] }
   ]
 }

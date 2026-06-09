@@ -10,7 +10,6 @@
     { "id": "vlc",        "name": "VLC Media Player",   "description": "Phát video, nhạc",             "icon": "vlc",        "type": "winget", "package": "VideoLAN.VLC" },
     { "id": "winrar",     "name": "WinRAR",              "description": "Nén và giải nén file",         "icon": "winrar",     "type": "winget", "package": "RARLab.WinRAR" },
     { "id": "7zip",       "name": "7-Zip",               "description": "Nén giải nén miễn phí",       "icon": "7zip",       "type": "winget", "package": "7zip.7zip" },
-    { "id": "vscode",     "name": "VS Code",             "description": "Code editor mạnh mẽ",         "icon": "vscode",     "type": "winget", "package": "Microsoft.VisualStudioCode" },
     { "id": "obs",        "name": "OBS",                 "description": "Phần mềm Livestream",             "icon": "obs",        "type": "winget", "package": "OBSProject.OBSStudio" },
     { "id": "nodejs",     "name": "Node.js LTS",         "description": "JavaScript runtime",          "icon": "nodejs",     "type": "winget", "package": "OpenJS.NodeJS.LTS" },
     { "id": "docker",     "name": "Docker Desktop",      "description": "Container platform",          "icon": "docker",     "type": "winget", "package": "Docker.DockerDesktop" },
@@ -29,6 +28,6 @@
     { "id": "office-pc",     "name": "Máy Văn Phòng", "softwareIds": ["chrome", "office", "unikey", "foxit", "zalo"] },
     { "id": "sale-pc",       "name": "Máy Sale",      "softwareIds": ["chrome", "zalo", "anydesk", "office", "unikey"] },
     { "id": "accounting-pc", "name": "Máy Kế Toán",   "softwareIds": ["chrome", "office", "unikey", "foxit", "winrar"] },
-    { "id": "it-pc",         "name": "Máy IT",        "softwareIds": ["chrome", "vscode", "obs", "nodejs", "notepadpp", "docker","my-internal-app"] }
+    { "id": "it-pc",         "name": "Máy IT",        "softwareIds": ["chrome", "obs", "nodejs", "notepadpp", "docker","my-internal-app"] }
   ]
 }
